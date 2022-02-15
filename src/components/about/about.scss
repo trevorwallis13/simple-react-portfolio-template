@@ -31,7 +31,7 @@
     .inner {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 3rem;
     }
@@ -50,11 +50,12 @@
         align-items: center;
         border-radius: 20px;
         overflow: hidden;
+        z-index: 2;
 
         img {
             height: 300px;
             width: 300px;
-            z-index: 2;
+            z-index: 3;
         }
     }
 
@@ -66,13 +67,18 @@
         width: 100%;
         border: 3px solid app.$secondary-color;
         border-radius: 20px;
-        bottom: -8%;
-        right: -8%;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 1;
     }
 
     @media (max-width: 795px) {
         .about-text {
             width: 100%;
+        }
+
+        .inner {
+            justify-content: center;
         }
     }
     @media (max-width: 374px) {
