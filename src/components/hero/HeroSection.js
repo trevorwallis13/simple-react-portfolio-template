@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1>Trevor Wallis</h1>
-            <h2>Front-End Developer</h2>
+            <h2>Front-End Engineer</h2>
           </div>
           <div className="link-icon-row">
             <a href="https://github.com/trevorwallis13" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="connect-icon" /></a>
@@ -22,6 +22,7 @@ const HeroSection = () => {
           <div className="hero-buttons">
             <Button variant="outline-secondary">projects</Button>
             <Button variant="outline-secondary">about me</Button>
+            <Button variant="outline-secondary">resume</Button>
           </div>
         </div>
     </section>

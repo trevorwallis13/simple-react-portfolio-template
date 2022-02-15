@@ -1,0 +1,88 @@
+@use '../../styles/app';
+
+.about-section {
+    background-color: app.$primary-color;
+    color: app.$text-light;
+    padding: 5rem 2rem;
+
+    .about-content {
+        display: flex; 
+        flex-direction: column;
+        max-width: 800px;
+        gap: 2rem;
+    }
+
+    h2 {
+        position: relative;
+    }
+
+    h2::after {
+        content: " ";
+        width: 50%;
+        height: 1px;
+        background-color: app.$secondary-color;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        opacity: 50%;
+        border-radius: 3px;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+    .about-text {
+        width: 50%;
+    }
+
+    .img-container {
+        position: relative;
+    }
+    .about-img {
+        border: 3px solid app.$secondary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        overflow: hidden;
+
+        img {
+            height: 300px;
+            width: 300px;
+            z-index: 2;
+        }
+    }
+
+    .img-container::after {
+        content: " ";
+        position: absolute;
+        // opacity: 30%;
+        height: 100%;
+        width: 100%;
+        border: 3px solid app.$secondary-color;
+        border-radius: 20px;
+        bottom: -8%;
+        right: -8%;
+    }
+
+    @media (max-width: 795px) {
+        .about-text {
+            width: 100%;
+        }
+    }
+    @media (max-width: 374px) {
+        .about-img {
+            display: none;
+        }
+
+        .img-container::after {
+            display: none;
+        }
+    }
+}
+
