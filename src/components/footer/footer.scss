@@ -1,0 +1,8 @@
+@use "../../styles/app.scss";
+
+footer {
+    background-color: app.$text-dark;
+    color: app.$text-light;
+    text-align: center;
+    padding: 1rem;
+}

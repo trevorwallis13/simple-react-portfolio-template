@@ -13,8 +13,6 @@ const ProjectsSection = () => {
       return <TechStackIcon key={index} name={item.name} icon={item.icon}/>
   })
 
-  console.log(name);
-
     return <Project 
               key={index}
               name={name} 
@@ -28,7 +26,7 @@ const ProjectsSection = () => {
   })
 
   return (
-    <section className="projects section">
+    <section className="projects section" id="projects">
       <h2 className="section-header">Projects</h2>
       <div className="projects-container">
         {projects}

@@ -9,7 +9,6 @@ export const projectData = [
         description: (
             <>
                 <p>A web app that takes the 'I don't know' out of 'what do you want for dinner?' Add your favorite meals and plan your dinners for the week using drag-n-drop. Can't decide? hit 'Pick My Meals' to fill all your remaining evenings with a random selection from your list.</p>
-                <p>Oh look! Another paragraph!</p>
             </>
             ),
         liveLink: "https://pickmymeals.herokuapp.com/",
@@ -64,6 +63,33 @@ export const projectData = [
             {
                 name: 'HTML5',
                 icon: <FaHtml5 />
+            }
+        ]
+    },
+    {
+        name: "Simple React Portfolio",
+        img: "/images/projects/simple-react-portfolio.png",
+        altText: "Trevor Wallis portfolio screenshot",
+        description: (
+            <>
+                <p className="project-description">The Simple React Portfolio template allows developers to showcase their projects and a short biography in a clean, minimal design.</p>
+                <p>I designed this single-page portfolio using React, Sass, and React Bootstrap. Components and styles are conventiently segmented for other developers to easily adapt to their own style preferences.</p>
+            </>
+            ),
+        liveLink: "https://trevorwallis13.github.io/stopwatch/",
+        githubLink: "https://github.com/trevorwallis13/stopwatch",
+        techStack: [
+            {
+                name: 'React',
+                icon: <FaReact />
+            },
+            {
+                name: 'Sass',
+                icon: <FaSass />
+            },
+            {
+                name: 'Bootstrap',
+                icon: <FaBootstrap />
             }
         ]
     }
