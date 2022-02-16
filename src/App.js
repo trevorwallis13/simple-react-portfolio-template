@@ -12,8 +12,8 @@ const App = () => {
     <div className="App">
       <main className="content">
         <HeroSection/>
-        <ProjectsSection/>
         <AboutSection/>
+        <ProjectsSection/>
         <ContactSection/>
       </main>
       <Footer/>

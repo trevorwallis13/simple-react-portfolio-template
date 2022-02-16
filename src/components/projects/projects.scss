@@ -1,0 +1,94 @@
+@use '../../styles/app.scss';
+
+.projects-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    gap: 1rem;
+
+    h3 {
+        position: relative;
+        color: app.$text-dark
+    }
+
+    .highlight {
+        padding: 2px;
+        background: linear-gradient(180deg, #ffffff00 60%, app.$primary-color-70 60%);
+    }
+    
+    // h3::after {
+    //     content: " ";
+    //     width: 50%;
+    //     height: 1px;
+    //     background-color: app.$secondary-color;
+    //     position: absolute;
+    //     bottom: -3px;
+    //     left: 0;
+    //     opacity: 50%;
+    //     border-radius: 3px;
+    // }
+}
+
+.project-img-container{
+    width: 100%;
+    height: 300px;
+    box-shadow: 3px 5px 15px #00000070;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.project-img-container:hover {
+    transform: translate(-5px, -5px);
+    transition: all 300ms ease-in-out;
+}
+
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-btns-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-btn {
+    width: 40%;
+    min-width: 100px;
+}
+
+.tech-used-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 1rem .5rem;
+    opacity: 80%;
+}
+
+.tech-stack-icon-container {
+   text-align: center;
+
+   h4 {
+       font-size: .9rem;
+       font-weight: 100;
+       padding-top: 5px;
+       margin: 0;
+   }
+}

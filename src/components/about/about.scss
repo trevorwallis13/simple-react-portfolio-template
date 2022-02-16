@@ -1,39 +1,41 @@
 @use '../../styles/app';
 
-.about-section {
-    background-color: app.$primary-color;
-    color: app.$text-light;
-    padding: 5rem 2rem;
+.about {
+    // background-color: app.$primary-color;
+    // color: app.$text-light;
+    // padding: 5rem 2rem;
 
-    .about-content {
-        display: flex; 
-        flex-direction: column;
-        max-width: 800px;
-        gap: 2rem;
-    }
+    // .about-content {
+    //     display: flex; 
+    //     flex-direction: column;
+    //     max-width: 800px;
+    //     gap: 2rem;
+    // }
 
-    h2 {
-        position: relative;
-    }
+    // h2 {
+    //     position: relative;
+    // }
 
-    h2::after {
-        content: " ";
-        width: 50%;
-        height: 1px;
-        background-color: app.$secondary-color;
-        position: absolute;
-        bottom: -3px;
-        left: 0;
-        opacity: 50%;
-        border-radius: 3px;
-    }
+    // h2::after {
+    //     content: " ";
+    //     width: 50%;
+    //     height: 1px;
+    //     background-color: app.$secondary-color;
+    //     position: absolute;
+    //     bottom: -3px;
+    //     left: 0;
+    //     opacity: 50%;
+    //     border-radius: 3px;
+    // }
 
     .inner {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
+        max-width: 800px;
         gap: 3rem;
+        margin: 0 auto;
     }
 
     .about-text {
@@ -48,7 +50,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 5px;
         overflow: hidden;
         z-index: 2;
 
@@ -66,7 +68,7 @@
         height: 100%;
         width: 100%;
         border: 3px solid app.$secondary-color;
-        border-radius: 20px;
+        border-radius: 5px;
         bottom: 1rem;
         right: 1rem;
         z-index: 1;

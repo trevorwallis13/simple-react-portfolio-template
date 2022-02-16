@@ -4,9 +4,8 @@ import './about.scss'
 
 const AboutSection = () => {
   return (
-    <section className="about-section" id="about">
-      <div className="about-content container">
-        <h2>About me</h2>
+    <section className="about section section-alt-colors" id="about">
+        <h2 className="section-header">About me</h2>
         <div className="inner">
           <div className="about-text">
             <p>Hello! My name's Trevor and I build tools that simplify life and work.</p>
@@ -18,7 +17,6 @@ const AboutSection = () => {
               <img src={profile} alt="Trevor Wallis headshot" />
             </div>
           </div>
-        </div>
       </div>
     </section>
   )
