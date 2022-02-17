@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaEnvelope } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
 import Button from 'react-bootstrap/Button'
 import './contact.scss'
@@ -14,7 +14,7 @@ const ContactSection = () => {
               <FaEnvelope />
               <p>trevor@walliscreative.com</p>
             </div>
-            <Button href="mailto:trevor@walliscreative.com" variant="outline-secondary" className="alt-btn alt-btn-color">Say Hello</Button>
+            <Button href="mailto:trevor@walliscreative.com" variant="outline-secondary" className="alt-btn alt-btn-color">say hello</Button>
         </div>
       </div>
     </IconContext.Provider>

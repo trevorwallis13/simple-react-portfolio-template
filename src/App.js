@@ -1,4 +1,4 @@
-import {useState} from 'react';
+// import {useState} from 'react';
 import './styles/app.scss'
 import HeroSection from './components/hero/HeroSection'
 import AboutSection from './components/about/AboutSection'
