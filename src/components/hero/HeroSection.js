@@ -16,7 +16,7 @@ const HeroSection = () => {
           <ContactLinks />
           <div className="hero-buttons">
             <Button href="#projects" variant="outline-secondary">projects</Button>
-            <Button href="about" variant="outline-secondary">about me</Button>
+            <Button href="#about" variant="outline-secondary">about me</Button>
             <Button href="/docs/trevor-wallis-resume.pdf" variant="outline-secondary">resume</Button>
           </div>
         </div>
