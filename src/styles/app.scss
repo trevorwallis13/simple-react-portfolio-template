@@ -8,6 +8,7 @@ $text-light: #F1F4EE;
 $text-dark: #40353A;
 $accent-color: #A48C76;
 $primary-color-70: #D3997A70;
+$secondary-color-70: #A24C4A70;
 
 body {
     box-sizing: border-box;
@@ -15,6 +16,24 @@ body {
     padding: 0;
     font-family: $primary-font;
     color: $text-dark;
+}
+
+//-------> Typography <-------//
+
+a {
+    color: inherit;
+    text-decoration-color: $secondary-color;
+    text-decoration-thickness: 5px;
+}
+
+a:hover,
+a:focus {
+    color: $secondary-color;
+}
+
+.highlight {
+    padding: 2px;
+    background: linear-gradient(180deg, #ffffff00 60%, $secondary-color-70 60%);
 }
 
 //-------> Buttons <-------//
@@ -79,6 +98,8 @@ body {
     border-radius: 3px;
 }
 
+
+
 .main-header {
     background-color: $primary-color;
     padding: 10px 0;
@@ -122,44 +143,6 @@ body {
     }
 }
 
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-
-.hero::before {
-    content: " ";
-    width: 100%;
-    height: 100%;
-    background-image: url('../assets/background.jpg');
-    background-position: center;
-    background-size: cover;
-    opacity: 25%;
-    z-index: -1;
-    position: absolute;
-}
-
-.hero-content {
-    margin: 1rem;
-}
-
-.hero-text {
-    h1 {
-        font-size: clamp(2rem, 4.5vw, 4rem);
-        color: $primary-color;
-    }
-    h2 {
-        font-size: clamp(1.7rem, 4vw, 3rem);
-        font-weight: lighter;
-    }
-}
-
 .link-icon-row {
     display: flex;
     flex-direction: column;
@@ -196,13 +179,5 @@ body {
 .connect-icon:hover,
 .connect-icon:focus {
     color: $secondary-color;
-}
-
-.hero-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding-top: 1rem;
-    justify-content: center;
 }
 

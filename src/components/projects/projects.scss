@@ -21,23 +21,6 @@
         position: relative;
         color: app.$text-dark
     }
-
-    .highlight {
-        padding: 2px;
-        background: linear-gradient(180deg, #ffffff00 60%, app.$primary-color-70 60%);
-    }
-    
-    // h3::after {
-    //     content: " ";
-    //     width: 50%;
-    //     height: 1px;
-    //     background-color: app.$secondary-color;
-    //     position: absolute;
-    //     bottom: -3px;
-    //     left: 0;
-    //     opacity: 50%;
-    //     border-radius: 3px;
-    // }
 }
 
 .project-img-container{

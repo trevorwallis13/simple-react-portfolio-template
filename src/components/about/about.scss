@@ -1,32 +1,6 @@
 @use '../../styles/app';
 
 .about {
-    // background-color: app.$primary-color;
-    // color: app.$text-light;
-    // padding: 5rem 2rem;
-
-    // .about-content {
-    //     display: flex; 
-    //     flex-direction: column;
-    //     max-width: 800px;
-    //     gap: 2rem;
-    // }
-
-    // h2 {
-    //     position: relative;
-    // }
-
-    // h2::after {
-    //     content: " ";
-    //     width: 50%;
-    //     height: 1px;
-    //     background-color: app.$secondary-color;
-    //     position: absolute;
-    //     bottom: -3px;
-    //     left: 0;
-    //     opacity: 50%;
-    //     border-radius: 3px;
-    // }
 
     .inner {
         display: flex;
@@ -42,17 +16,15 @@
         width: 50%;
     }
 
-    .img-container {
-        position: relative;
-    }
     .about-img {
-        border: 3px solid app.$secondary-color;
+        // border: 3px solid app.$secondary-color;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 5px;
         overflow: hidden;
         z-index: 2;
+        box-shadow: -2px -3px 15px #00000090;
 
         img {
             height: 300px;
@@ -61,16 +33,19 @@
         }
     }
 
-    .img-container::after {
+    .shadow-outline {
+        position: relative;
+    }
+
+    .shadow-outline::after {
         content: " ";
         position: absolute;
-        // opacity: 30%;
         height: 100%;
         width: 100%;
-        border: 3px solid app.$secondary-color;
+        border: 5px solid app.$secondary-color;
         border-radius: 5px;
-        bottom: 1rem;
-        right: 1rem;
+        bottom: 1.2rem;
+        right: 1.2rem;
         z-index: 1;
     }
 

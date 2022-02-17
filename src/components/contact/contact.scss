@@ -1,12 +1,13 @@
 @use "../../styles/app.scss";
 
+.contact
+
 .contact-container {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
-
+    gap: 1.5rem;
 }
 
 .alt-btn {
