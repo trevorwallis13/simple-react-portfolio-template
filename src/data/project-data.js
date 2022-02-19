@@ -8,7 +8,8 @@ export const projectData = [
         altText: "Pick My Meals project screenshot",
         description: (
             <>
-                <p>A web app that takes the 'I don't know' out of 'what do you want for dinner?' Add your favorite meals and plan your dinners for the week using drag-n-drop. Can't decide? hit 'Pick My Meals' to fill all your remaining evenings with a random selection from your list.</p>
+                <p>A CRUD web app with user authentication built with React, Sass, Express, and PostgreSQL. </p>
+                <p>Pick My Meals takes the 'I don't know' out of 'what do you want for dinner?' Add your favorite meals and plan your dinners for the week using drag-n-drop. Can't decide? hit 'Pick My Meals' to fill all your remaining evenings with a random selection from your list.</p>
             </>
             ),
         liveLink: "https://pickmymeals.herokuapp.com/",
@@ -90,6 +91,28 @@ export const projectData = [
             {
                 name: 'Bootstrap',
                 icon: <FaBootstrap />
+            }
+        ]
+    },
+    {
+        name: "Church Homepage Clone",
+        img: "/images/projects/church-homepage-clone.png",
+        altText: "Clone of Jubilee Church website from December 2021",
+        description: (
+            <>
+                <p>A pure HTML/CSS clone of Jubilee Church's website from December 2021. I used the church's existing website as a visual guide while I recreated the homepage layout with a responsive design using flexbox.</p>
+            </>
+            ),
+        liveLink: "https://trevorwallis13.github.io/Jubilee-Church-HTML-Clone/",
+        githubLink: "https://github.com/trevorwallis13/Jubilee-Church-HTML-Clone/",
+        techStack: [
+            {
+                name: 'HTML5',
+                icon: <FaHtml5 />
+            },
+            {
+                name: 'CSS3',
+                icon: <FaCss3 />
             }
         ]
     }
