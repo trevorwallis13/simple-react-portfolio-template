@@ -1,19 +1,25 @@
 import { FaReact, FaBootstrap, FaNodeJs, FaJs, FaCss3, FaHtml5, FaSass } from 'react-icons/fa'
 import { SiPostgresql, SiExpress } from 'react-icons/si'
 
+
+/* 
+    Add details for each project here. 
+    You can add as many projects as you'd like. They'll automatically be imported into the projects section. 
+*/
+
 export const projectData = [
     {
-        name: "Pick My Meals",
-        img: "/images/projects/pick-my-meals.png",
-        altText: "Pick My Meals project screenshot",
+        name: "Project 1",
+        img: "/images/projects/sample-project-img.jpg",
+        altText: "Project 1 screenshot",
         description: (
             <>
-                <p>A CRUD web app with user authentication built with React, Sass, Express, and PostgreSQL. </p>
-                <p>Pick My Meals takes the 'I don't know' out of 'what do you want for dinner?' Add your favorite meals and plan your dinners for the week using drag-n-drop. Can't decide? hit 'Pick My Meals' to fill all your remaining evenings with a random selection from your list.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia reprehenderit saepe, fugiat perspiciatis natus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis eveniet. Cum vel amet corrupti sint, unde similique, doloremque facilis in vero tempora consequatur iste.</p>
             </>
             ),
-        liveLink: "https://pickmymeals.herokuapp.com/",
-        githubLink: "https://github.com/trevorwallis13/pick-my-meals",
+        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
                 name: 'React',
@@ -41,17 +47,17 @@ export const projectData = [
             }
         ]
     },
-    {
-        name: "Stopwatch",
-        img: "/images/projects/stopwatch.png",
-        altText: "Stopwatch project screenshot",
+    {name: "Project 2",
+        img: "/images/projects/sample-project-img.jpg",
+        altText: "Project 2 screenshot",
         description: (
             <>
-                <p className="project-description">A mobile-friendly stopwatch app that tracks total time, laps, and current lap time. This vanilla javascript project was one of the first tools I built from scratch by myself. </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia reprehenderit saepe, fugiat perspiciatis natus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis eveniet. Cum vel amet corrupti sint, unde similique, doloremque facilis in vero tempora consequatur iste.</p>
             </>
             ),
-        liveLink: "https://trevorwallis13.github.io/stopwatch/",
-        githubLink: "https://github.com/trevorwallis13/stopwatch",
+        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
                 name: 'Javascript',
@@ -68,17 +74,18 @@ export const projectData = [
         ]
     },
     {
-        name: "Simple React Portfolio",
-        img: "/images/projects/simple-react-portfolio.png",
-        altText: "Trevor Wallis portfolio screenshot",
+        name: "Project 3",
+        img: "/images/projects/sample-project-img.jpg",
+        altText: "Project 3 screenshot",
         description: (
             <>
-                <p className="project-description">The Simple React Portfolio template allows developers to showcase their projects and a short biography in a clean, minimal design.</p>
-                <p>I designed this single-page portfolio using React, Sass, and React Bootstrap. Components and styles are conventiently segmented for other developers to easily adapt to their own style preferences.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia reprehenderit saepe, fugiat perspiciatis natus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis eveniet. Cum vel amet corrupti sint, unde similique, doloremque facilis in vero tempora consequatur iste.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos nobis sunt tempora nostrum nihil?</p>
             </>
             ),
-        liveLink: "https://trevorwallis13.github.io/stopwatch/",
-        githubLink: "https://github.com/trevorwallis13/stopwatch",
+        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
                 name: 'React',
@@ -95,16 +102,16 @@ export const projectData = [
         ]
     },
     {
-        name: "Church Homepage Clone",
-        img: "/images/projects/church-homepage-clone.png",
-        altText: "Clone of Jubilee Church website from December 2021",
+        name: "Project 4",
+        img: "/images/projects/sample-project-img.jpg",
+        altText: "Project 4 screenshot",
         description: (
             <>
-                <p>A pure HTML/CSS clone of Jubilee Church's website from December 2021. I used the church's existing website as a visual guide while I recreated the homepage layout with a responsive design using flexbox.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia reprehenderit saepe, fugiat perspiciatis natus?</p>
             </>
             ),
-        liveLink: "https://trevorwallis13.github.io/Jubilee-Church-HTML-Clone/",
-        githubLink: "https://github.com/trevorwallis13/Jubilee-Church-HTML-Clone/",
+        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
                 name: 'HTML5',

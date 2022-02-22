@@ -1,4 +1,4 @@
-@use '../../styles/app';
+@use "../../styles/colors.scss";
 
 .about {
 
@@ -17,7 +17,7 @@
     }
 
     .about-img {
-        // border: 3px solid app.$secondary-color;
+        // border: 3px solid colors.$secondary-color;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,7 +42,7 @@
         position: absolute;
         height: 100%;
         width: 100%;
-        border: 5px solid app.$secondary-color;
+        border: 5px solid colors.$secondary-color;
         border-radius: 5px;
         bottom: 1.2rem;
         right: 1.2rem;

@@ -17,10 +17,14 @@ const Project = ({name, img, altText, description, liveLink, githubLink, techSta
                     <div className="tech-used-icons">
                         {techStackComponents}
                     </div>
-                    {description}
-                    <div className="project-btns-container">
-                        <Button variant="outline-secondary" href={liveLink} className='project-btn'>View Live</Button>
-                        <Button variant="outline-secondary" href={githubLink} className='project-btn'>Github</Button>
+                    <div className="description-and-buttons">
+                        <div className="description-text">
+                            {description}
+                        </div>
+                        <div className="project-btns-container">
+                            <Button variant="outline-secondary" href={liveLink} className='project-btn'>View Live</Button>
+                            <Button variant="outline-secondary" href={githubLink} className='project-btn'>Github</Button>
+                        </div>
                     </div>
                 </div>
             </div>

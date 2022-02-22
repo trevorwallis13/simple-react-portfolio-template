@@ -1,8 +1,8 @@
-@use "../../styles/app.scss";
+@use "../../styles/colors.scss";
 
 footer {
-    background-color: app.$text-dark;
-    color: app.$text-light;
+    background-color: colors.$text-dark;
+    color: colors.$text-light;
     text-align: center;
     padding: 1rem;
 }
