@@ -128,4 +128,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: /public/full-screenshot.png
+[product-screenshot]: public/images/full-screenshot.png
