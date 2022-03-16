@@ -10,7 +10,7 @@ const Project = ({name, img, altText, description, liveLink, githubLink, techSta
                 <h3 className="project-title"><span className="highlight">{name}</span></h3>
                 <div className="project-img-container">
                     <a href={liveLink}>
-                        <img src={`%PUBLIC_URL%${img}`} className="project-img" alt={altText}/>
+                        <img src={`${process.env.PUBLIC_URL}${img}`} className="project-img" alt={altText}/>
                     </a>
                 </div>
                 <div className="project-content">

@@ -5,6 +5,8 @@ import TechStackIcon from './TechStackIcon'
 
 const ProjectsSection = () => {
 
+  console.log(projectData)
+
   const projects = projectData.map((project, index) => {
 
     const {name, img, altText, description, liveLink, githubLink, techStack } = project;
