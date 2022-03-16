@@ -3,14 +3,14 @@ import './projects.scss'
 import { IconContext } from 'react-icons'
 
 const Project = ({name, img, altText, description, liveLink, githubLink, techStackComponents}) => {
-
+    console.log(img)
     return (
         <IconContext.Provider value={{size: "1.7em", color: "#40353A"}}>
             <div className="project">
                 <h3 className="project-title"><span className="highlight">{name}</span></h3>
                 <div className="project-img-container">
                     <a href={liveLink}>
-                        <img src={img} alt={altText} className="project-img" />
+                        <img src={`%PUBLIC_URL%${img}`} className="project-img" alt={altText}/>
                     </a>
                 </div>
                 <div className="project-content">

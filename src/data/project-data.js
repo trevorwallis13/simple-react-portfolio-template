@@ -18,7 +18,7 @@ export const projectData = [
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis eveniet. Cum vel amet corrupti sint, unde similique, doloremque facilis in vero tempora consequatur iste.</p>
             </>
             ),
-        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        liveLink: "https://trevorwallis13.github.io/simple-react-portfolio-template",
         githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
@@ -56,7 +56,7 @@ export const projectData = [
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis eveniet. Cum vel amet corrupti sint, unde similique, doloremque facilis in vero tempora consequatur iste.</p>
             </>
             ),
-        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        liveLink: "https://trevorwallis13.github.io/simple-react-portfolio-template",
         githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
@@ -84,7 +84,7 @@ export const projectData = [
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos nobis sunt tempora nostrum nihil?</p>
             </>
             ),
-        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        liveLink: "https://trevorwallis13.github.io/simple-react-portfolio-template",
         githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
@@ -110,7 +110,7 @@ export const projectData = [
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia reprehenderit saepe, fugiat perspiciatis natus?</p>
             </>
             ),
-        liveLink: "https://trevorwallis13.github.io/simple-react--portfolio-template",
+        liveLink: "https://trevorwallis13.github.io/simple-react-portfolio-template",
         githubLink: "https://github.com/trevorwallis13/simple-react-portfolio-template",
         techStack: [
             {
